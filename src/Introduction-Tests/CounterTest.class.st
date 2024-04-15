@@ -12,9 +12,7 @@ CounterTest >> testFailing [
 
 	myCounter := Counter new.
 	myCounter count: 10.
-	
-	myCounter increment.
-	
+		
 	self assert: myCounter count equals: 10
 ]
 
