@@ -8,5 +8,6 @@ Class {
 BaselineOfIntroduction >> baseline: spec [
 	<baseline>
 	spec for: #common do: [ 
-		spec package: 'Introduction' ]
+		spec package: 'Introduction'.
+		spec package: 'Introduction-Tests'. ]
 ]
